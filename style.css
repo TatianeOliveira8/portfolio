@@ -1,0 +1,121 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Conteúdo principal do site */
+main {
+    margin-bottom: 50px; 
+}
+
+/* Container de navegação */
+.container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+.container a {
+    color: white;
+}
+
+/* Lista de navegação */
+.container ul {
+    display: flex;
+    list-style-type: none;
+    gap: 120px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Estilo comum para home, projeto e skill */
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid yellow;
+    height: 25px;
+    width: 100px;
+}
+
+/* Título principal */
+h1 {
+    color: yellow;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 64px;
+}
+
+/* Container flexível */
+.container-flexbox {
+    border-radius: 25px;
+    border: 2px solid yellow;
+    padding: 25px;
+    width: 450px;
+    margin: 5%;
+}
+
+.container-flexbox p {
+    padding-top: 15px;
+}
+
+/* Seção de perfil */
+.perfil-flexbox {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.perfil-flexbox img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Formação */
+.formacao-flexbox {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 50px; /* Espaçamento entre formação e rodapé */
+    box-sizing: border-box;
+}
+
+.formacao-flexbox ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    background-color: yellow;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
