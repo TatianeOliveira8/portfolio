@@ -8,13 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="overlay"></div> <!-- Mover o overlay para dentro do body -->
+    
     <header>
         <div class="content">
             <nav class="container">
                 <ul>
-                    <li><a class="nav-button home" href="#">Home</a></li>
-                    <li><a class="nav-button projeto" href="#">Projetos</a></li>
-                    <li><a class="nav-button skill" href="#">Skill</a></li>
+                    <li><a class="nav-button home" href="index.html">Home</a></li>
+                    <li><a class="nav-button projeto" href="projetos.html">Projetos</a></li>
+                    <li><a class="nav-button skill" href="skills.html">Skill</a></li>
                 </ul>
             </nav>
         </div>
@@ -23,30 +25,32 @@
     <main>
         <h1>&lt;Tatiane Oliveira&lt;/&gt;</h1>
 
-        <section class="container-flexbox">
-            <h2>Sobre mim</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum soluta vero dolore porro! Sint laboriosam eos quaerat voluptatem eius, autem quasi ratione eum. Itaque fugit nam hic dolor. Libero, dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos vitae ad similique voluptas deserunt quos corrupti ullam neque. Molestiae sed possimus facere voluptates perferendis est atque ut aut dicta eos.</p>
-        </section>
+        <div class="sobre-container">
+            <section class="container-flexbox">
+                <h2>Sobre mim</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus lacinia velit non faucibus. Nullam pharetra, enim a faucibus malesuada, purus justo accumsan risus, in luctus sem urna in felis. Sed eu ligula justo. Proin eget nisi scelerisque, fermentum sem nec, dapibus nisl. Quisque a nibh eu arcu facilisis ultricies. Suspendisse ac elit at libero pretium rhoncus. Donec a massa non dolor feugiat dictum eget vitae est. Aenean nec urna vitae felis vehicula rhoncus. Curabitur sed mauris sem. Integer tristique velit ac malesuada posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus euismod faucibus sapien, a varius mi laoreet at. Sed gravida massa ut neque scelerisque convallis. Etiam suscipit velit a urna fermentum, nec faucibus enim aliquet. Cras at dui vel nisl ultricies egestas. Praesent tincidunt libero sem, eget vehicula ligula dictum vitae.</p>
+            </section>
 
-        <section class="perfil-flexbox">
-            <img src="" alt="perfil">
-        </section>
+            <section class="perfil">
+                <img src="img/perfil.png" alt="perfil">
+            </section>
+        </div>
 
         <section class="formacao-flexbox">
             <h3>Formação</h3>
             <ul>
-                <li>Cursando</li>
-                <li>Cursando</li>
-                <li>Curso completo</li>
-                <li>Curso completo</li>
+                <li>Cursando Desenvolvimento de Software Multiplataforma – FATEC- SJC (2024-202X)</li>
+                <li>Cursando língua inglesa na Microcamp (2023-202X)</li>
+                <li>Curso completo Excel SENAI</li>
+                <li>Curso completo lógica da programação SENAI</li>
             </ul>
         </section>
     </main>
 
     <footer>
         <ul>
-            <li><a href="#"><img src="" alt="GitHub"></a></li>
-            <li><a href="#"><img src="" alt="LinkedIn"></a></li>
+            <li><a href="#"><img src="link/icons8-github-60 (1) 1.png" alt="GitHub"></a></li>
+            <li><a href="#"><img src="link/icons8-linkedin-60 (1) 1.png" alt="LinkedIn"></a></li>
         </ul>
     </footer>
 </body>
