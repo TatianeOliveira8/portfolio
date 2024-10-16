@@ -6,28 +6,158 @@
 }
 
 /* Estilo geral do corpo */
+html, body {
+    height: 100%; /* Garante que o body ocupe toda a altura da página */
+}
+
 body {
-    margin: 0;
     font-family: 'Roboto', sans-serif;
     color: white;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: black; /* Cor de fundo primária */
-    position: relative;
+    display: flex;
+    flex-direction: column; /* Garante que o conteúdo seja distribuído verticalmente */
+    justify-content: space-between; /* Espaço entre o conteúdo e o footer */
+    min-height: 100vh; /* O corpo ocupa a tela inteira */
 }
 
 .overlay {
-    position: absolute;
     width: 100%;
-    height: 100%;
     background: linear-gradient(
         to bottom, 
-        rgba(75, 52, 125, 0.08) 0%,       /* Preto sólido no fundo */
-        rgba(64, 37, 100, 0.02) 60%,    /* Preto mais transparente */
-        rgba(234, 178, 8, 0.2) 100%, /* Amarelo com 20% de opacidade */
-        rgba(234, 178, 8, 0.8) 100% /* Amarelo com 10% de opacidade */
-    );
-    pointer-events: none; /* Permite que o conteúdo seja clicado através do overlay */
+        rgba(14, 165, 233, 0.2) 0%,       
+        rgba(17, 169, 214, 0.1) 50%,    
+        rgba(22, 178, 178, 0.05) 80%, 
+        rgba(34, 197, 94, 0.2) 100%
+    );  
+    flex: 1;
+}
+
+main {
+    flex: 1; /* O main ocupa o espaço restante */
+    padding-bottom: 6rem; /* Espaço opcional para evitar que o conteúdo encoste no footer */
+}
+
+/* Container de navegação */
+.container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 5% 0 10%;
+}
+
+.container a {
+    color: white;
+}
+
+/* Lista de navegação */
+.container ul {
+    display: flex;
+    list-style-type: none;
+    gap: 120px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Botões de navegação */
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid #0EA5E9;
+    height: 25px;
+    width: 100px;
+}
+
+.container-flexbox-hard h2 {
+    display: flex;
+    margin: 4% 5%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid #0ea5e9;
+    height: 50px;
+    width: 200px;
+}
+
+/* Estilo da lista de tecnologias */
+.tecnologias {
+    display: flex;                    
+    justify-content: space-around;    
+    flex-wrap: wrap;                 
+    list-style-type: none;           
+    padding: 20px 5%;                
+    border-radius: 10px;             
+}
+
+.tecnologias li {
+    text-align: center;               
+    margin: 10px;                    
+    padding: 10px;                   
+    border: 5px solid rgba(14, 165, 233, 0.1); /* Borda azul para cada item */
+    border-radius: 10px;             
+}
+
+.tecnologias img {
+    max-width: 100px;                
+    border-radius: 10px;             
+}
+
+.tecnologias span {
+    display: block;                   
+    margin-top: 5px;                 
+    color: white;                    
+    font-weight: bold;               
+}
+
+/* Estilo da lista de soft skills */
+.softs-skills {
+    display: flex;              
+    justify-content: flex-end; /* Alinha os itens à direita */
+    flex-wrap: wrap;           
+    list-style-type: none;     
+    padding: 0 5%;             
+}
+
+.softs-skills li {
+    background-color: rgba(34, 197, 94, 0.1); /* Cor de fundo para destaque */
+    color: white;             
+    padding: 20px 50px;      
+    border-radius: 10px;     
+    margin: 10px;            
+    flex: 1 1 150px;         
+    text-align: center;      
+    font-weight: bold;       
+}
+
+.container-flexbox-soft h2 {
+    display: flex;
+    margin: 4% 5%;
+    margin-top: 10%;
+    margin-left: auto; /* Empurra o h2 para a direita */
+    justify-content: center; /* Mudado para flex-start */
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid #22c55e;
+    height: 50px;
+    width: 200px;
+}
+
+/* Footer */
+footer {
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+footer img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0) saturate(0) hue-rotate(210deg); /* Ajuste a tonalidade conforme necessário */
 }

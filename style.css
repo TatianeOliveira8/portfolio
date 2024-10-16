@@ -35,7 +35,7 @@ body {
 
 /* Conteúdo principal do site */
 main {
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
     flex: 1; /* O main vai ocupar o espaço restante */
 }
 
@@ -92,7 +92,7 @@ h1 {
     border-radius: 25px;
     border: 2px solid #EAB308;
     padding: 35px;
-    width: 500px;
+    width: 40%;
 }
 
 .container-flexbox p {
@@ -102,13 +102,17 @@ h1 {
 /* Imagem de perfil */
 .perfil {
     flex-shrink: 0;
-    margin-top: -80px;
-    padding: 25px;
+    margin-top: -5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    
+
 }
 
 .perfil img {
-    max-width: 450px;
+    max-width: 100%;
     height: auto;
+    margin-left: 5%;
 }
 
 /* Formação */
@@ -121,7 +125,7 @@ h1 {
     border-radius: 25px;
     border: 2px solid #EAB308;
     padding: 35px;
-    width: 680px;
+    width: 40%;
 }
 
 .formacao-flexbox h3 {
