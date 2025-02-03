@@ -5,8 +5,6 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
-//import './Navbar.css';
-
 const navLinks = [
   { href: "#inicio", label: "Início" },
   { href: "#sobre-mim", label: "Sobre mim" },

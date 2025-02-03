@@ -3,13 +3,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        rubik: ['Rubik', 'sans-serif'], // Adiciona a fonte Rubik
+        rubik: ['Rubik', 'sans-serif'],
       },
       animation: {
         float: "float 3s ease-in-out infinite",
         fadeInLeft: "fadeInLeft 1s ease-out forwards",
         fadeInRight: "fadeInRight 1s ease-out forwards",
-        typing: "typing 3s steps(8) 1s forwards", // 8 passos para "Tatiane"
+        typing: "typing 3s steps(8) 1s forwards", 
         blink: "blink 0.7s step-end infinite",
       },
       keyframes: {
