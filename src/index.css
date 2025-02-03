@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+:root {
+  --color-yellow-opacity: rgba(234, 179, 8, 0.15);
+  --color-yellow-secondary: rgba(234, 179, 8, 0.35);
+  --color-yellow-primary: #eab308;
+  --color-gray : rgb(112, 112, 112, 0.16);
+  --color-gray-secondary: rgba(112, 112, 112);
+  --color-gray-primary: #5d6664;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.min-h-screen {
+  min-height: 80vh;
+  
+}
+
+body {
+  @apply font-rubik;
+  background-color: black;
+}
+
