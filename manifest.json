@@ -1,6 +1,6 @@
 {
-  "short_name": "Tatiane Portfolio",
-  "name": "Portfólio de Tatiane Oliveira",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
