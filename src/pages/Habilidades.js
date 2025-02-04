@@ -120,7 +120,7 @@ function Habilidades() {
         {/* AWS */}
         <div className="flex items-center text-white bg-[var(--color-gray)] px-6 py-4 rounded-xl">
           <img 
-            src="/img/aws.svg" 
+            src={`${process.env.PUBLIC_URL}/img/aws.svg`} 
             alt="AWS" 
             className="w-8 h-8 sm:w-12 sm:h-12" 
           />
