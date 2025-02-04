@@ -47,7 +47,7 @@ const Projeto = ({ imagem, titulo, descricao, tecnologias, linkDiretorio, linkVi
 const Projetos = () => {
   const projetos = [
     {
-      imagem: '/img/projetoVereadores.jpg',
+      imagem: `${process.env.PUBLIC_URL}/img/projetoVereadores.jpg`,
       titulo: 'Plataforma de Transparência Legislativa',
       descricao: 'Desenvolvi partes essenciais de uma plataforma web que transforma dados da prefeitura de São José dos Campos em informações acessíveis. Contribuí para a filtragem de proposições, a funcionalidade de avaliação de vereadores, além do desenvolvimento da página inicial e do ranking de desempenho. A ferramenta promove transparência e engajamento cívico com dados interativos e intuitivos.',
       tecnologias: ['HTML', 'CSS', 'JavaScript', 'Tailwind', 'Python', 'Flask', 'Railway'],

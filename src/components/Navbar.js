@@ -15,7 +15,7 @@ const navLinks = [
 const socialLinks = [
   { href: "https://github.com/TatianeOliveira8", icon: faGithub },
   { href: "https://www.linkedin.com/in/tatiane-oliveira-a66789296/", icon: faLinkedin },
-  { href: "/curriculo/curriculum.pdf", icon: faFile }
+  { href: `${process.env.PUBLIC_URL}/curriculo/curriculum.pdf`, icon: faFile }
 ];
 
 function Navbar() {
