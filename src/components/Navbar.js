@@ -78,7 +78,7 @@ function Navbar() {
             rel="noopener noreferrer"
             className="hover:scale-110 hover:text-[var(--color-yellow-secondary)] transition-transform"
           >
-            <FontAwesomeIcon icon={icon} className="text-[20px] md:text-[25px]" />
+            <FontAwesomeIcon icon={icon} className="text-[25px]" />
           </a>
         ))}
       </div>
