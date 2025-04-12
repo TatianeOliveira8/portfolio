@@ -21,7 +21,6 @@ function Inicio() {
   </p>
 </div>
 
-
        {/* Foto de perfil */}
 <div
   className="relative w-80 h-96 md:w-[18rem] md:h-[23rem] rounded-[25px] shadow-[25px_18px_rgb(112,112,112,0.15)] md:ml-auto mx-auto animate-float"
@@ -43,7 +42,7 @@ function Inicio() {
       {/* "Habilidades" */}
       <div id="habilidades" className="w-full max-w-7xl mt-24">
         <h2 className="text-2xl sm:text-3xl font-bold mb-4 p-5 text-center opacity-0 fade-from-left">
-          <span className="text-[var(--color-yellow-primary)]">//</span> Habilidades
+          <span className="text-[var(--color-yellow-primary)]">{'//'}</span> Habilidades
         </h2>
         <Habilidades />
       </div>
@@ -51,7 +50,7 @@ function Inicio() {
       {/* "Projetos" */}
       <div id="projetos" className="w-full max-w-7xl mt-24">
         <h2 className="text-2xl sm:text-3xl font-bold mb-4 p-5 text-center opacity-0 fade-from-left">
-          <span className="text-[var(--color-yellow-primary)]">//</span> Projetos
+          <span className="text-[var(--color-yellow-primary)]">{'//'}</span> Projetos
         </h2>
         <Projetos />
       </div>
