@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare, faCode } from '@fortawesome/free-solid-svg-icons';
 
-const ProjetoCard = ({ imagem, titulo, descricao, tecnologias, linkDiretorio, linkVisualizar }) => {
+const ProjetoCard = ({ imagem, titulo, descricao, cargo, tecnologias, linkDiretorio, linkVisualizar }) => {
   return (
     <div className="bg-[var(--color-gray)] rounded-3xl w-full sm:w-[90%] md:w-[80%] lg:w-[48%] mb-4 flex flex-col justify-between p-2 opacity-0 fade-from-right mx-4">
       <div>
@@ -11,6 +11,8 @@ const ProjetoCard = ({ imagem, titulo, descricao, tecnologias, linkDiretorio, li
         </div>
         <h2 className="text-[var(--color-yellow-primary)] text-lg sm:text-xl font-semibold text-left px-4 mb-2">{titulo}</h2>
         <p className="text-white text-left mb-4 px-4 text-sm sm:text-base ">{descricao}</p>
+        <p className="text-left mb-4 px-4 text-sm sm:text-base">
+          <span className="text-[var(--color-yellow-primary)]">Cargo:</span> {cargo}</p>
         <div className="flex flex-wrap justify-left gap-2 pl-4 pr-4 mb-4 ">
           {tecnologias.map((tecnologia, index) => (
             <span

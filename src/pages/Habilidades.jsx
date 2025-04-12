@@ -1,5 +1,5 @@
 import React from 'react';
-import HabilidadesCard from '../components/habilidades/HabilidadesCard.js';
+import HabilidadesCard from '../components/ui/HabilidadesCard.js';
 
 const habilidades = [
   {
