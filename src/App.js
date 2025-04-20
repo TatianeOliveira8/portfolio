@@ -1,18 +1,44 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Inicio from './pages/Inicio';
-import Projetos from './pages/Projetos';
-import Habilidades from './pages/Habilidades';
-import SobreMim from './pages/SobreMim';
+import Curriculo from './pages/curriculo.jsx';
 
-function App() {
+function LayoutWithNavbar({ children }) {
   return (
     <>
       <Navbar />
-      <div id="inicio">
-        <Inicio />
-      </div>
+      {children}
     </>
+  );
+}
+
+function AppRoutes() {
+  const location = useLocation();
+
+  return (
+    <Routes>
+      <Route
+        path="/curriculo"
+        element={<Curriculo />}
+      />
+      <Route
+        path="*"
+        element={
+          <LayoutWithNavbar>
+            <Inicio />
+          </LayoutWithNavbar>
+        }
+      />
+    </Routes>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <AppRoutes />
+    </Router>
   );
 }
 

@@ -2,6 +2,9 @@ import React from 'react';
 import Projetos from './Projetos';
 import Habilidades from './Habilidades';
 import SobreMim from './SobreMim'; // Importando o componente de sobre mim
+//import CertificadosCarousel from '../components/CertificadosCarousel'; // ou ajuste o caminho correto
+import Certificado from './Certificados'; // importando a página como componente
+
 
 function Inicio() {
   return (
@@ -20,7 +23,6 @@ function Inicio() {
     Experiência em projetos acadêmicos e pessoais.
   </p>
 </div>
-
 
        {/* Foto de perfil */}
 <div
@@ -43,18 +45,26 @@ function Inicio() {
       {/* "Habilidades" */}
       <div id="habilidades" className="w-full max-w-7xl mt-24">
         <h2 className="text-2xl sm:text-3xl font-bold mb-4 p-5 text-center opacity-0 fade-from-left">
-          <span className="text-[var(--color-yellow-primary)]">//</span> Habilidades
+          <span className="text-[var(--color-yellow-primary)]">{'//'}</span> Habilidades
         </h2>
         <Habilidades />
       </div>
 
+      <div id="certificados" className="w-full max-w-7xl mt-24">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-4 p-5 text-center opacity-0 fade-from-right">
+          <span className="text-[var(--color-yellow-primary)]">{'//'}</span> Certificado
+        </h2>
+        <Certificado />
+      </div>
+
       {/* "Projetos" */}
       <div id="projetos" className="w-full max-w-7xl mt-24">
-        <h2 className="text-2xl sm:text-3xl font-bold mb-4 p-5 text-center opacity-0 fade-from-left">
-          <span className="text-[var(--color-yellow-primary)]">//</span> Projetos
+        <h2 className="text-2xl sm:text-3xl font-bold mb-4 p-5 text-center opacity-0 fade-from-right">
+          <span className="text-[var(--color-yellow-primary)]">{'//'}</span> Projetos
         </h2>
         <Projetos />
       </div>
+
     </div>
   );
 }

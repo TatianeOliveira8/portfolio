@@ -1,26 +1,31 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '@fontsource/rubik';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faFile, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
+
 const navLinks = [
-  { href: "#inicio", label: "Início" },
-  { href: "#sobre-mim", label: "Sobre mim" },
-  { href: "#habilidades", label: "Habilidades" },
-  { href: "#projetos", label: "Projetos" }
+  { href: "/#inicio", label: "Início" },
+  { href: "/#sobre-mim", label: "Sobre mim" },
+  { href: "/#habilidades", label: "Habilidades" },
+  { href: "/#certificados", label: "Certificados"},
+  { href: "/#projetos", label: "Projetos" }
 ];
 
 const socialLinks = [
-  { href: "https://github.com/TatianeOliveira8", icon: faGithub },
-  { href: "https://www.linkedin.com/in/tatiane-oliveira-a66789296/", icon: faLinkedin },
-  { href: `${process.env.PUBLIC_URL}/curriculo/curriculum.pdf`, icon: faFile }
+  { href: "https://github.com/...", icon: faGithub },
+  { href: "https://linkedin.com/...", icon: faLinkedin }
+];
+
+const internalLinks = [
+  { to: "/curriculo", icon: faFile }
 ];
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Ajuste para rolar automaticamente para a seção ao mudar o hash na URL
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash;
@@ -30,7 +35,7 @@ function Navbar() {
           targetElement.scrollIntoView({ behavior: "smooth" });
         }
       }
-    };   
+    };
 
     return () => {
       window.removeEventListener("hashchange", handleHashChange);
@@ -60,7 +65,7 @@ function Navbar() {
             <a
               href={href}
               className="w-full h-full flex justify-center items-center text-white text-sm md:text-base"
-              onClick={() => setIsMenuOpen(false)} // Fecha o menu ao clicar
+              onClick={() => setIsMenuOpen(false)}
             >
               {label}
             </a>
@@ -68,7 +73,7 @@ function Navbar() {
         ))}
       </ul>
 
-      {/* Links de redes sociais */}
+      {/* Links externos e internos (ícones) */}
       <div className="absolute right-16 flex gap-4 text-xl text-white">
         {socialLinks.map(({ href, icon }) => (
           <a
@@ -80,6 +85,16 @@ function Navbar() {
           >
             <FontAwesomeIcon icon={icon} className="text-[25px]" />
           </a>
+        ))}
+
+        {internalLinks.map(({ to, icon }) => (
+          <Link
+            key={to}
+            to={to}
+            className="hover:scale-110 hover:text-[var(--color-yellow-secondary)] transition-transform"
+          >
+            <FontAwesomeIcon icon={icon} className="text-[25px]" />
+          </Link>
         ))}
       </div>
     </nav>
