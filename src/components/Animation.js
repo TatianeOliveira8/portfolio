@@ -6,20 +6,24 @@ export function useScrollAnimation() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            if (entry.target.classList.contains("fade-from-left")) {
-              entry.target.classList.add("animate-fadeInLeft");
-            } else if (entry.target.classList.contains("fade-from-right")) {
-              entry.target.classList.add("animate-fadeInRight");
+            const target = entry.target;
+
+            if (target.classList.contains("fade-from-left")) {
+              target.classList.add("animate-fadeInLeft");
+            } else if (target.classList.contains("fade-from-right")) {
+              target.classList.add("animate-fadeInRight");
             }
+
+            observer.unobserve(target); // anima uma vez só
           }
         });
       },
       { threshold: 0.2 }
     );
 
-    document.querySelectorAll(".fade-from-left").forEach((element) => observer.observe(element));
-    document.querySelectorAll(".fade-from-right").forEach((element) => observer.observe(element));
+    const elementos = document.querySelectorAll(".fade-from-left, .fade-from-right");
+    elementos.forEach((el) => observer.observe(el));
 
-    return () => observer.disconnect(); // Limpa o observer quando o componente for desmontado
+    return () => observer.disconnect();
   }, []);
 }

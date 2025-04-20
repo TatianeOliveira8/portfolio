@@ -4,7 +4,7 @@ import { faArrowUpRightFromSquare, faCode } from '@fortawesome/free-solid-svg-ic
 
 const ProjetoCard = ({ imagem, titulo, descricao, cargo, tecnologias, linkDiretorio, linkVisualizar }) => {
   return (
-    <div className="bg-[var(--color-gray)] rounded-3xl w-full sm:w-[90%] md:w-[80%] lg:w-[48%] mb-4 flex flex-col justify-between p-2 opacity-0 fade-from-right mx-4">
+    <div className="bg-[var(--color-gray)] rounded-3xl w-full sm:w-[90%] md:w-[80%] lg:w-[48%] mb-4 flex flex-col justify-between p-2 opacity-0 fade-from-left mx-4">
       <div>
         <div className="flex justify-center mb-2 ">
           <img src={imagem} alt={titulo} className="w-full max-w-[1280px] h-auto aspect-[2/1] object-cover p-2 rounded-3xl" />
