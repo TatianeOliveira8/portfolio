@@ -1,4 +1,3 @@
-// src/data/dadosHabilidades.js
 export const habilidades = [
     {
       nome: 'HTML',

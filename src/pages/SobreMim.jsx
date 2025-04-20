@@ -2,7 +2,7 @@ import React from "react";
 import { useScrollAnimation } from "../components/Animation";
 
 function SobreMim() {
-  useScrollAnimation(); // Usando o hook para ativar a animação
+  useScrollAnimation(); 
 
   return (
     <div id="sobre-mim" className="w-full max-w-7xl flex items-center">

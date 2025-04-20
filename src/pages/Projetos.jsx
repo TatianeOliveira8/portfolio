@@ -1,7 +1,6 @@
-// src/pages/Projetos.jsx
 import React from 'react';
-import { dadosProjetos } from '../dados/DadosProjetos.js';   // Importando os dados de projetos
-import ProjetoCard from '../components/ui/ProjetosCard.js';  // Importando o componente de estilização do card
+import { dadosProjetos } from '../dados/DadosProjetos.js';   
+import ProjetoCard from '../components/ui/ProjetosCard.js';  
 
 const Projetos = () => {
   return (

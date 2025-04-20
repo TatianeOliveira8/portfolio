@@ -1,4 +1,3 @@
-// src/dados/projetos.js
 export const dadosProjetos = [
     {
         imagem: `${process.env.PUBLIC_URL}/img/projetoVereadores.jpg`,

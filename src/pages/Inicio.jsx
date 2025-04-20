@@ -1,9 +1,8 @@
 import React from 'react';
 import Projetos from './Projetos';
 import Habilidades from './Habilidades';
-import SobreMim from './SobreMim'; // Importando o componente de sobre mim
-//import CertificadosCarousel from '../components/CertificadosCarousel'; // ou ajuste o caminho correto
-import Certificado from './Certificados'; // importando a página como componente
+import SobreMim from './SobreMim'; 
+import Certificado from './Certificados'; 
 
 
 function Inicio() {

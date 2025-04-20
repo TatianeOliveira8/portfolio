@@ -1,4 +1,3 @@
-// src/dados/skills.js
 export const softSkills = [
     'Trabalho em equipe',
     'Proatividade',

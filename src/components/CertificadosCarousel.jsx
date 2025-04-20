@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
-import CertificadosCard from '../components/ui/CertificadoCard'; // ajusta o caminho se precisar
-import { dadosCertificados } from '../dados/DadosCertificado'; // ajusta o caminho se precisar
+import CertificadosCard from '../components/ui/CertificadoCard'; 
+import { dadosCertificados } from '../dados/DadosCertificado';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const CarrosselDeCertificados = () => {
-  // Estado para controlar qual certificado está sendo exibido
+  // qual será exivido
   const [indiceAtual, setIndiceAtual] = useState(0);
 
-  // Número de itens a serem exibidos por vez
-  const itensPorPagina = 2; // Exibe 2 itens por vez, você pode ajustar este valor conforme necessário
+  const itensPorPagina = 2; 
 
   // Função para mover para o certificado anterior
   const navegarAnterior = () => {
@@ -22,7 +21,6 @@ const CarrosselDeCertificados = () => {
   };
   
 
-  // Calcular os itens a serem exibidos
   const itensVisiveis = dadosCertificados.slice(indiceAtual * itensPorPagina, (indiceAtual + 1) * itensPorPagina);
 
   return (

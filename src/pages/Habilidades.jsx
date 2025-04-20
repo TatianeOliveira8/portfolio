@@ -1,7 +1,6 @@
-// src/pages/Habilidades.jsx
 import React from 'react';
 import HabilidadesCard from '../components/ui/HabilidadesCard';
-import { habilidades } from '../dados/DadosHabilidades.js'; // aqui importa os dados
+import { habilidades } from '../dados/DadosHabilidades.js'; 
 
 const Habilidades = () => {
   return (
