@@ -1,11 +1,19 @@
-# Meu Portfólio
+# Conexão com o banco
 
-Este é o meu portfólio desenvolvido com React e Tailwind CSS. Aqui você encontrará informações sobre mim, meus projetos e minhas habilidades.
+### 1. Configurar Variáveis de Ambiente
+Crie um arquivo `.env` na raiz com:
 
-## Tecnologias utilizadas
-- React.js
-- Tailwind CSS
-- CSS
-- JavaScript
+```env
+DB_HOST=localhost
+DB_USER=seu_usuario
+DB_PASSWORD=senha  
+DB_NAME=nome_banco
+DB_PORT=3306
+```
 
+### 2.  Execução do Projeto
+Instalação e inicialização
 
+- cd backend
+- npm install
+- node index.js
