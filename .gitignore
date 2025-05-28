@@ -1,7 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+# Ignorar node_modules em qualquer lugar do projeto
+**/node_modules/
+.vscode/
+# Ignorar arquivos de ambiente
+**/.env
 # Dependências
-/node_modules
 /.pnp
 .pnp.js
 

@@ -1,0 +1,41 @@
+// certificados exemplo
+{
+  "nome_curso": "Curso de React",
+  "instituicao": "Alura",
+  "ano_inicio": 2023,
+  "ano_conclusao": 2024,
+  "url_certificado": "https://exemplo.com/certificado-react",
+  "descricao": "Curso completo de desenvolvimento com React.js",
+  "imagem": "react-certificado.png"
+}
+// tecnologias exemplo
+{
+  "nome": "React",
+  "imagem": "react-logo.png"
+}
+// projetos exemplo
+{
+  "titulo": "Dashboard Helpnei",
+  "descricao": "Sistema de visualização de dados para empresas parceiras.",
+  "imagem": "dashboard-helpnei.png",
+  "cargo": "Scrum Master e Desenvolvedora Front-End",
+  "link_diretorio": "https://github.com/seuusuario/dashboard-helpnei"
+}
+// projetos exemplo associada a tecnologias
+{
+  "titulo": "Portfolio",
+  "descricao": "Site pessoal com projetos",
+  "imagem": "portfolio.png",
+  "cargo": "Desenvolvedora",
+  "link_diretorio": "https://github.com/tati/portfolio",
+  "tecnologias": [1, 2]
+}
+// dados pessoais exemplo
+{
+  "nome": "Tatiane De Oliveira",
+  "email": "tatioliveira1415@gmail.com",
+  "telefone": "(11) 94789-4071",
+  "github": "https://github.com/TatianeOliveira8",
+  "linkedin": "https://www.linkedin.com/in/tatiane-oliveira-a66789296/",
+  "objetivo": "Atuar como desenvolvedora front-end, aplicando minhas habilidades em React e Tailwind em projetos que contribuam para soluções eficientes e acessíveis."
+}
