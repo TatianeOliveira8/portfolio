@@ -1,6 +1,5 @@
 import * as tecnologiaModel from '../models/tecnologiamodel.js';
 
-// Listar todas
 export async function listarTecnologias(req, res) {
   try {
     const lista = await tecnologiaModel.getTecnologias();
@@ -10,7 +9,6 @@ export async function listarTecnologias(req, res) {
   }
 }
 
-// Buscar uma
 export async function buscarTecnologia(req, res) {
   try {
     const id = req.params.id;
@@ -26,7 +24,6 @@ export async function buscarTecnologia(req, res) {
   }
 }
 
-// Criar
 export async function criarTecnologia(req, res) {
   try {
     const novaTec = req.body;
@@ -37,7 +34,6 @@ export async function criarTecnologia(req, res) {
   }
 }
 
-// Atualizar
 export async function atualizarTecnologia(req, res) {
   try {
     const id = req.params.id;
@@ -49,7 +45,6 @@ export async function atualizarTecnologia(req, res) {
   }
 }
 
-// Deletar
 export async function deletarTecnologia(req, res) {
   try {
     const id = req.params.id;

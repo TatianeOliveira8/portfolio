@@ -1,6 +1,5 @@
 import * as certificadoModel from '../models/certificadomodel.js';
 
-// Listar todos os certificados
 export async function listarCertificados(req, res) {
   try {
     const certificados = await certificadoModel.getCertificados();
@@ -10,7 +9,6 @@ export async function listarCertificados(req, res) {
   }
 }
 
-// Criar um novo certificado
 export async function criarCertificado(req, res) {
   console.log('Recebido no body:', req.body);
 
@@ -24,19 +22,17 @@ export async function criarCertificado(req, res) {
   }
 }
 
-// Atualizar um certificado existente
 export async function atualizarCertificado(req, res) {
   try {
     const id = req.params.id;
     const dados = req.body;
     await certificadoModel.editarCertificado(id, dados);
-    res.status(204).send(); // 204 = deu certo, mas sem conteúdo
+    res.status(204).send(); 
   } catch (erro) {
     res.status(500).json({ erro: 'Erro ao atualizar certificado' });
   }
 }
 
-// Deletar um certificado
 export async function deletarCertificado(req, res) {
   try {
     const id = req.params.id;
@@ -47,7 +43,6 @@ export async function deletarCertificado(req, res) {
   }
 }
 
-// Buscar um certificado pelo ID
 export async function buscarCertificado(req, res) {
   try {
     const id = req.params.id;

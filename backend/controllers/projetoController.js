@@ -40,9 +40,6 @@ export async function deletarProjeto(req, res) {
   }
 }
 
-
-// buscar projetos por id mensagens de erro
-
 export async function buscarProjeto(req, res) {
   try {
     const id = req.params.id;
