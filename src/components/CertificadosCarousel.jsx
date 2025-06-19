@@ -1,54 +1,55 @@
-import React, { useState } from 'react';
-import CertificadosCard from '../components/ui/CertificadoCard'; // ajusta o caminho se precisar
-import { dadosCertificados } from '../dados/DadosCertificado'; // ajusta o caminho se precisar
+import React, { useState, useEffect } from 'react';
+import CertificadosCard from '../components/ui/CertificadoCard';
+import { dadosCertificados } from '../dados/DadosCertificado';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const CarrosselDeCertificados = () => {
-  // Estado para controlar qual certificado está sendo exibido
   const [indiceAtual, setIndiceAtual] = useState(0);
+  const [itensPorPagina, setItensPorPagina] = useState(2);
 
-  // Número de itens a serem exibidos por vez
-  const itensPorPagina = 2; // Exibe 2 itens por vez, você pode ajustar este valor conforme necessário
+  useEffect(() => {
+    const ajustarItensPorPagina = () => {
+      if (window.innerWidth < 840) { // tela pequena (exemplo: <640px)
+        setItensPorPagina(1);
+      } else {
+        setItensPorPagina(2);
+      }
+      setIndiceAtual(0); // resetar índice para evitar overflow ao trocar itensPorPagina
+    };
 
-  // Função para mover para o certificado anterior
+    ajustarItensPorPagina();
+
+    window.addEventListener('resize', ajustarItensPorPagina);
+    return () => window.removeEventListener('resize', ajustarItensPorPagina);
+  }, []);
+
+  const maxIndice = Math.ceil(dadosCertificados.length / itensPorPagina) - 1;
+
   const navegarAnterior = () => {
-    setIndiceAtual((prev) => Math.max(prev - 1, 0));
+    setIndiceAtual(prev => Math.max(prev - 1, 0));
   };
-  
-  const navegarProximo = () => {
-    const maxIndice = Math.ceil(dadosCertificados.length / itensPorPagina) - 1;
-    setIndiceAtual((prev) => Math.min(prev + 1, maxIndice));
-  };
-  
 
-  // Calcular os itens a serem exibidos
+  const navegarProximo = () => {
+    setIndiceAtual(prev => Math.min(prev + 1, maxIndice));
+  };
+
   const itensVisiveis = dadosCertificados.slice(indiceAtual * itensPorPagina, (indiceAtual + 1) * itensPorPagina);
 
   return (
-    <div className="flex flex-col items-center gap-4 mb-4 flex flex-col justify-between p-2 opacity-0 fade-from-left mx-4">
-      {/* Carrossel de Certificados */}
+    <div className="flex flex-col items-center gap-4 mb-4 p-2 opacity-0 fade-from-left mx-4">
       <div className="flex items-center gap-8">
-        {/* Botão de navegação para o anterior */}
-        <button
-          onClick={navegarAnterior}
-          className="p-2 text-white rounded-full hover:bg-gray-600"
-        >
+        <button onClick={navegarAnterior} className="p-2 text-white rounded-full hover:bg-gray-600">
           <FontAwesomeIcon icon={faArrowLeft} style={{ color: "#ffffff", fontSize: "24px" }} />
         </button>
 
-        {/* Exibe os certificados atuais */}
         <div className="flex gap-4">
           {itensVisiveis.map((certificado, index) => (
             <CertificadosCard key={index} {...certificado} />
           ))}
         </div>
 
-        {/* Botão de navegação para o próximo */}
-        <button
-          onClick={navegarProximo}
-          className="p-2 text-white rounded-full hover:bg-gray-600"
-        >
+        <button onClick={navegarProximo} className="p-2 text-white rounded-full hover:bg-gray-600">
           <FontAwesomeIcon icon={faArrowRight} style={{ color: "#ffffff", fontSize: "24px" }} />
         </button>
       </div>
