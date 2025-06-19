@@ -1,12 +1,24 @@
-import React from 'react';
-import { dadosProjetos } from '../dados/DadosProjetos.js';   
-import ProjetoCard from '../components/ui/ProjetosCard.js';  
+import React, { useEffect, useState } from 'react';
+import { listarProjetos } from '../services/ApiProjetos';  // ajuste o caminho
+import ProjetoCard from '../components/ui/projetos/ProjetosCard';
 
 const Projetos = () => {
+  const [projetos, setProjetos] = useState([]);
+
+useEffect(() => {
+  listarProjetos()
+    .then(data => {
+      console.log('Projetos:', data);
+      setProjetos(data);
+    })
+    .catch(console.error);
+}, []);
+
+
   return (
-    <div className="container mx-auto px-2">
+    <div className="container mx-auto px-2 opacity-0 fade-from-left">
       <div className="flex flex-wrap justify-center gap-4 p-4">
-        {dadosProjetos.map((projeto, index) => (
+        {projetos.map((projeto, index) => (
           <ProjetoCard key={index} {...projeto} />
         ))}
       </div>

@@ -22,6 +22,7 @@ CREATE TABLE projetos (
   imagem VARCHAR(255) NOT NULL,
   cargo VARCHAR(100) NOT NULL,
   link_diretorio VARCHAR(255) NOT NULL
+  link_visualizar VARCHAR(255)
 );
 
 CREATE TABLE projeto_tecnologia (
@@ -42,6 +43,8 @@ CREATE TABLE dados_pessoais (
   objetivo TEXT
 );
 
+select * from dados_pessoais;
 
 -- testes 
-SELECT * FROM dados_pessoais;
+SELECT * FROM projeto_tecnologia;
+
