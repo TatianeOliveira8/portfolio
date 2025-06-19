@@ -11,9 +11,14 @@ DB_NAME=nome_banco
 DB_PORT=3306
 ```
 
-### 2.  Execução do Projeto
+### 2. Execução do Projeto
 Instalação e inicialização
 
 - cd backend
 - npm install
 - node index.js
+
+### 3. Execução do Frontend
+Na raiz do projeto, execute:
+- npm start
+  
