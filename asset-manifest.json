@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3f730e2f.css",
-    "main.js": "/portfolio/static/js/main.459476f5.js",
+    "main.css": "/portfolio/static/css/main.11de7f96.css",
+    "main.js": "/portfolio/static/js/main.5c731fed.js",
     "static/media/rubik-latin-400-normal.woff": "/portfolio/static/media/rubik-latin-400-normal.870dcb9ca975e7fa06a9.woff",
     "static/media/rubik-arabic-400-normal.woff": "/portfolio/static/media/rubik-arabic-400-normal.9b7e86b9f74ba1c2e5a6.woff",
     "static/media/rubik-latin-400-normal.woff2": "/portfolio/static/media/rubik-latin-400-normal.5903a23647de7c1c373f.woff2",
@@ -15,11 +15,11 @@
     "static/media/rubik-cyrillic-ext-400-normal.woff2": "/portfolio/static/media/rubik-cyrillic-ext-400-normal.1382ac2e75fea62dd104.woff2",
     "static/media/rubik-hebrew-400-normal.woff2": "/portfolio/static/media/rubik-hebrew-400-normal.9f12218709f0b72dbf18.woff2",
     "index.html": "/portfolio/index.html",
-    "main.3f730e2f.css.map": "/portfolio/static/css/main.3f730e2f.css.map",
-    "main.459476f5.js.map": "/portfolio/static/js/main.459476f5.js.map"
+    "main.11de7f96.css.map": "/portfolio/static/css/main.11de7f96.css.map",
+    "main.5c731fed.js.map": "/portfolio/static/js/main.5c731fed.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f730e2f.css",
-    "static/js/main.459476f5.js"
+    "static/css/main.11de7f96.css",
+    "static/js/main.5c731fed.js"
   ]
 }
