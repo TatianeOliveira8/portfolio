@@ -7,11 +7,11 @@ import { faFile, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 
 const navLinks = [
-  { href: "/#inicio", label: "Início" },
-  { href: "/#sobre-mim", label: "Sobre mim" },
-  { href: "/#habilidades", label: "Habilidades" },
-  { href: "/#certificados", label: "Certificados"},
-  { href: "/#projetos", label: "Projetos" }
+  { href: "#inicio", label: "Início" },
+  { href: "#sobre-mim", label: "Sobre mim" },
+  { href: "#habilidades", label: "Habilidades" },
+  { href: "#certificados", label: "Certificados"},
+  { href: "#projetos", label: "Projetos" }
 ];
 
 const socialLinks = [
