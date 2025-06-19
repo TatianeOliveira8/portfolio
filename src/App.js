@@ -14,7 +14,7 @@ function LayoutWithNavbar({ children }) {
 }
 
 function AppRoutes() {
-  const location = useLocation();
+// const location = useLocation();
 
   return (
     <Routes>
