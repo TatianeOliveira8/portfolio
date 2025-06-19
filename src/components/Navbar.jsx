@@ -15,8 +15,8 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { href: "https://github.com/...", icon: faGithub },
-  { href: "https://linkedin.com/...", icon: faLinkedin }
+  { href: "https://github.com/TatianeOliveira8", icon: faGithub },
+  { href: "https://www.linkedin.com/in/tatiane-oliveira-a66789296/", icon: faLinkedin }
 ];
 
 const internalLinks = [
