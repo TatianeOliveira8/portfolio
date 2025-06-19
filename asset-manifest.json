@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3f730e2f.css",
+    "main.js": "/portfolio/static/js/main.459476f5.js",
+    "static/media/rubik-latin-400-normal.woff": "/portfolio/static/media/rubik-latin-400-normal.870dcb9ca975e7fa06a9.woff",
+    "static/media/rubik-arabic-400-normal.woff": "/portfolio/static/media/rubik-arabic-400-normal.9b7e86b9f74ba1c2e5a6.woff",
+    "static/media/rubik-latin-400-normal.woff2": "/portfolio/static/media/rubik-latin-400-normal.5903a23647de7c1c373f.woff2",
+    "static/media/rubik-arabic-400-normal.woff2": "/portfolio/static/media/rubik-arabic-400-normal.fb7a9eb9da73dfe4012d.woff2",
+    "static/media/rubik-latin-ext-400-normal.woff": "/portfolio/static/media/rubik-latin-ext-400-normal.b22669ae614939bed8f4.woff",
+    "static/media/rubik-latin-ext-400-normal.woff2": "/portfolio/static/media/rubik-latin-ext-400-normal.128f0ade4a0f37464020.woff2",
+    "static/media/rubik-cyrillic-400-normal.woff": "/portfolio/static/media/rubik-cyrillic-400-normal.6051558aea94e6ef53ed.woff",
+    "static/media/rubik-cyrillic-ext-400-normal.woff": "/portfolio/static/media/rubik-cyrillic-ext-400-normal.42f32fa6be04a31cca47.woff",
+    "static/media/rubik-cyrillic-400-normal.woff2": "/portfolio/static/media/rubik-cyrillic-400-normal.4518a3e43930ad13dfff.woff2",
+    "static/media/rubik-hebrew-400-normal.woff": "/portfolio/static/media/rubik-hebrew-400-normal.dc3e1612254ef63af34e.woff",
+    "static/media/rubik-cyrillic-ext-400-normal.woff2": "/portfolio/static/media/rubik-cyrillic-ext-400-normal.1382ac2e75fea62dd104.woff2",
+    "static/media/rubik-hebrew-400-normal.woff2": "/portfolio/static/media/rubik-hebrew-400-normal.9f12218709f0b72dbf18.woff2",
+    "index.html": "/portfolio/index.html",
+    "main.3f730e2f.css.map": "/portfolio/static/css/main.3f730e2f.css.map",
+    "main.459476f5.js.map": "/portfolio/static/js/main.459476f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f730e2f.css",
+    "static/js/main.459476f5.js"
+  ]
+}

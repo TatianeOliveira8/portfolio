@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Ignorar node_modules em qualquer lugar do projeto
+**/node_modules/
+.vscode/
+# Ignorar arquivos de ambiente
+**/.env
+# Dependências
+/.pnp
+.pnp.js
+
+# Testes
+/coverage
+
+# Produção
+/build
+
+# Configurações do Editor (VS Code)
+/.vscode/
+
+# Arquivos do macOS
+.DS_Store
+
+# Variáveis de Ambiente
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Logs e caches
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
