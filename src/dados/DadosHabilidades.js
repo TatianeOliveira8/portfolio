@@ -57,4 +57,29 @@ export const habilidades = [
     nome: 'Node',
     imagem: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg',
   },
+  {
+    nome: 'Express',
+    imagem: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg',
+  },
+  {
+    nome: 'Java',
+    imagem: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg',
+  },
+  {
+    nome: 'Spring Boot',
+    imagem: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg',
+  },
+  {
+    nome: 'mongoDB',
+    imagem: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg',
+  },
+  {
+    nome: 'Redis',
+    imagem: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg',
+    
+  },
+  {
+    nome: 'Docker',
+    imagem: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg',
+  }
 ];

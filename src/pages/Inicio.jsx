@@ -17,10 +17,12 @@ function Inicio() {
     <span className="text-[var(--color-yellow-primary)]">Tatiane Oliveira</span>
     <span className="animate-blink opacity-25 font-thin">|</span>
   </h1>
+  <span className="text-gray-400 text-lg sm:text-xl md:text-2xl font-medium">
+    Desenvolvedora de Software Full-Stack
+  </span>
   <div className="w-full h-[1px] bg-[var(--color-yellow-primary)] mb-6"></div>
   <p className="text-lg sm:text-xl md:text-2xl max-w-2xl mb-6">
-    <span className="text-[var(--color-yellow-primary)]">Desenvolvedora de Software Front-End</span> e estudante de Desenvolvimento de Sistemas Multiplataforma na FATEC.
-    Experiência em projetos acadêmicos e pessoais.
+    Tenho 19 anos e sou estudante de Desenvolvimento de Sistemas Multiplataforma na FATEC. Aqui você encontra meus projetos, habilidades e um pouco sobre minha trajetória na área de tecnologia.
   </p>
 </div>
 

@@ -4,9 +4,9 @@ export const dadosPessoais = {
     telefones: ["(11) 94789-4071"],
     links: {
       github: "https://github.com/TatianeOliveira8",
-      linkedin: "https://www.linkedin.com/in/tatiane-oliveira-a66789296/"
+      linkedin: "https://www.linkedin.com/in/tatiane-oliveira-332155377"
     },
-    objetivo: "Atuar como desenvolvedora front-end, aplicando minhas habilidades em React e Tailwind em projetos que contribuam para soluções eficientes e acessíveis.",
+    objetivo: "Atuar como desenvolvedora Fullstack, aplicando minhas habilidades em projetos que contribuam para soluções eficientes e inovadoras.",
     formacoes: [
       {
         curso: "Desenvolvimento de Sistemas Multiplataforma",

@@ -1,4 +1,3 @@
-// src/dados/skills.js
 
 export const softSkills = [
   'Trabalho em equipe',
@@ -14,15 +13,15 @@ export const softSkills = [
 export const hardSkills = [
   {
     categoria: 'Linguagens de Programação',
-    itens: ['HTML', 'CSS', 'JavaScript', 'Python', 'TypeScript']
+    itens: ['HTML', 'CSS', 'JavaScript', 'Python', 'TypeScript', 'Java']
   },
   {
     categoria: 'Frameworks e Bibliotecas',
-    itens: ['React', 'Node', 'Express', 'Flask', 'Tailwind CSS', 'Bootstrap']
+    itens: ['React', 'Node', 'Express', 'Flask', 'Tailwind CSS', 'Bootstrap', 'Spring Boot']
   },
   {
     categoria: 'Banco de Dados',
-    itens: ['MySQL', 'SQL']
+    itens: ['MySQL', 'MongoDB', 'Redis', 'SQL']
   },
   {
     categoria: 'Ferramentas de Design',
