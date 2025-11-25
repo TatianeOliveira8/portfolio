@@ -66,27 +66,29 @@ hardSkillsDesenvolvidas: [
   tecnologias: ['React', 'TypeScript', 'Tailwind', 'CSS', 'Java', 'Spring Boot', 'MongoDB', 'Figma'
   ],
   linkDiretorio: 'https://github.com/Syntax-Fatec-SJC/SideQuest',
-  contribuicoesPessoais: [
-  'Desenvolvi a arquitetura do front-end, estruturando o projeto em Feature-Based Architecture para garantir escalabilidade e padronização.',
+contribuicoesPessoais: [
+  'Desenvolvi a arquitetura do front-end utilizando Feature-Based Architecture, garantindo escalabilidade e padronização.',
   'Defini convenções de código e organização de componentes, unificando o padrão de desenvolvimento do time.',
   'Desenvolvi as principais interfaces do sistema (dashboard, relatórios, projetos e cadastros) e implementei controle de acesso por rota.',
   'Criei um sistema centralizado de tratamento de erros e mensagens, elevando a confiabilidade e usabilidade do front-end.',
-  'Integrei o dashboard ao back-end, exibindo dados em tempo real do MongoDB.',
-  'No back-end (Java + Spring Boot), configurei a conexão com o MongoDB, desenvolvi o CRUD completo de projetos e realizei refatoração estrutural do código (DTOs, módulos e padrões da aplicação) durante a primeira sprint.'
+  'Integrei o front-end ao back-end, exibindo dados em tempo real do MongoDB.',
+  'No back-end (Java + Spring Boot), configurei a conexão com MongoDB, desenvolvi CRUD completo de projetos e realizei refatoração estrutural do código (DTOs, módulos e padrões da aplicação) durante a primeira sprint.'
 ],
+
 hardSkillsDesenvolvidas: [
-  'React e TypeScript para construção das interfaces e lógica de front-end.',
-  'Tailwind CSS para estilização e criação de layouts.',
-  'Java e Spring Boot para desenvolvimento do back-end, criação de endpoints e implementação da lógica de negócio.',
-  'MongoDB para modelagem e persistência dos dados.',
-  'Implementação de controle de acesso e tratamento centralizado de erros.'
+  'React e TypeScript para construção de interfaces e lógica de front-end.',
+  'Tailwind CSS para estilização e criação de layouts responsivos.',
+  'Java e Spring Boot para desenvolvimento do back-end e criação de endpoints.',
+  'MongoDB para modelagem e persistência de dados.'
 ],
+
 softSkillsDesenvolvidas: [
-  'Trabalho em equipe: aprendi a me integrar a uma nova equipe, seguindo o fluxo do grupo e compartilhando meus conhecimentos para contribuir com todos.',
-  'Comunicação: me tornei mais comunicativa, pedindo opiniões, dando sugestões e colaborando nas decisões do time.',
-'Pensamento crítico: realizei análises detalhadas de erros no front-end para identificar causas e fazer melhorias no sistema.',
-'Aprendizagem contínua: adquiri rapidamente conhecimentos em Spring Boot e MongoDB para superar desafios técnicos.'
+  'Trabalho em equipe: colaborei ativamente e compartilhei meus conhecimentos.',
+'Adaptabilidade: entendi como cada integrante trabalha e ajustei minha forma de contribuir conforme o fluxo do time.',
+  'Comunicação: desenvolvi habilidades para dar sugestões, pedir opiniões e colaborar nas decisões do time.',
+  'Pensamento crítico: analisei erros no front-end para identificar causas e propor melhorias no sistema.',
+  'Aprendizagem contínua: adquiri rapidamente conhecimentos em Spring Boot e MongoDB para superar desafios técnicos.'
 ]
-      },
+      }
     ];
   
