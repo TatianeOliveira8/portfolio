@@ -3,7 +3,7 @@ export const dadosProjetos = [
       {
         imagem: `${process.env.PUBLIC_URL}/img/projetoVereadores.jpg`,
         titulo: 'Plataforma de Transparência Legislativa',
-        descricao: 'O projeto foi proposto pela Helpnei, que não possuía nenhuma ferramenta para visualizar o impacto e os resultados das empresas parceiras dentro da plataforma, contando apenas com uma página inicial sem métricas. Para resolver isso, desenvolvemos um Dashboard de Indicadores, permitindo monitorar o crescimento das empresas cadastradas, exibir dados estratégicos para patrocinadores e investidores e incluir um sistema de captação de usuários interessados em patrocínio.',
+        descricao:'O projeto foi proposto pelo professor Fernando Masanori. Os moradores de São José dos Campos tinham dificuldade em acessar informações claras sobre a atuação dos vereadores, pois os dados estavam dispersos. Criamos uma plataforma web que centraliza e apresenta essas informações de forma acessível, permitindo que os eleitores tomem decisões mais informadas nas eleições municipais.',
         cargo: 'Fullstack',
         tecnologias: ['HTML', 'CSS', 'JavaScript', 'Tailwind', 'Python', 'Flask', 'MySQL', 'Figma', 'Railway'],
         linkDiretorio: 'https://github.com/TatianeOliveira8/plataforma-legislativa',
@@ -71,7 +71,6 @@ contribuicoesPessoais: [
   'Defini convenções de código e organização de componentes, unificando o padrão de desenvolvimento do time.',
   'Desenvolvi as principais interfaces do sistema (dashboard, relatórios, projetos e cadastros) e implementei controle de acesso por rota.',
   'Criei um sistema centralizado de tratamento de erros e mensagens, elevando a confiabilidade e usabilidade do front-end.',
-  'Integrei o front-end ao back-end, exibindo dados em tempo real do MongoDB.',
   'No back-end (Java + Spring Boot), configurei a conexão com MongoDB, desenvolvi CRUD completo de projetos e realizei refatoração estrutural do código (DTOs, módulos e padrões da aplicação) durante a primeira sprint.'
 ],
 
