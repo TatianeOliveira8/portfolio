@@ -12,6 +12,7 @@ const ProjetoCard = ({
   linkDiretorio,
   linkVisualizar,
   contribuicoesPessoais = [],
+  licoesAprendidas = [],
   hardSkillsDesenvolvidas = [],
   softSkillsDesenvolvidas = [],
 }) => {
@@ -72,6 +73,17 @@ const ProjetoCard = ({
                   <h3 className="font-semibold mt-2 mb-1 text-[var(--color-yellow-primary)]">Contribuições Pessoais:</h3>
                   <ul className="list-disc list-inside text-sm mb-2">
                     {contribuicoesPessoais.map((item, idx) => (
+                      <li key={idx}>{item}</li>
+                    ))}
+                    
+                  </ul>
+                </>
+              )}
+              {licoesAprendidas.length > 0 && (
+                <>
+                  <h3 className="font-semibold mt-2 mb-1 text-[var(--color-yellow-primary)]">Lições Aprendidas:</h3>
+                  <ul className="list-disc list-inside text-sm mb-2">
+                    {licoesAprendidas.map((item, idx) => (
                       <li key={idx}>{item}</li>
                     ))}
                   </ul>

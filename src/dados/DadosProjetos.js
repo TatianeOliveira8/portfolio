@@ -67,11 +67,11 @@ hardSkillsDesenvolvidas: [
   ],
   linkDiretorio: 'https://github.com/Syntax-Fatec-SJC/SideQuest',
 contribuicoesPessoais: [
-  'Desenvolvi a arquitetura do front-end utilizando Feature-Based Architecture, garantindo escalabilidade e padronização.',
-  'Defini convenções de código e organização de componentes, unificando o padrão de desenvolvimento do time.',
-  'Desenvolvi as principais interfaces do sistema (dashboard, relatórios, projetos e cadastros) e implementei controle de acesso por rota.',
-  'Criei um sistema centralizado de tratamento de erros e mensagens, elevando a confiabilidade e usabilidade do front-end.',
-  'No back-end (Java + Spring Boot), configurei a conexão com MongoDB, desenvolvi CRUD completo de projetos e realizei refatoração estrutural do código (DTOs, módulos e padrões da aplicação) durante a primeira sprint.'
+  "Neste semestre, atuei como Dev Team na equipe Syntaxe e fui responsável por uma parte significativa da estrutura do sistema. No front-end, organizei toda a base usando Feature-Based Architecture, defini padrões de código e unifiquei a forma de desenvolvimento do time. Desenvolvi as principais telas, dashboard, relatórios e cadastros, e implementei o controle de acesso por rotas, garantindo que apenas usuários autenticados tivessem acesso. Também criei o sistema centralizado de erros e mensagens, incluindo bloqueio de tela quando não havia JWT válido. No back-end, trabalhei no módulo de projetos, desenvolvendo o CRUD completo e integrando as funcionalidades com as páginas do front-end."
+],
+
+licoesAprendidas: [
+  "O maior desafio do semestre foi me adaptar a uma equipe completamente nova, com um estilo de comunicação e organização diferente do que eu estava acostumada. Precisei ajustar meu ritmo de trabalho. A integração com um time pequeno, com membros em níveis muito diferentes de autonomia, exigiu mais comunicação, paciência e clareza nas entregas. As dificuldades internas, como baixa proatividade em algumas sprints, comunicação falha e falta de alinhamento em requisitos, me fizeram aprender a lidar melhor com imprevistos, manter meu foco mesmo com atrasos e reforçar meu papel na organização do trabalho. Do lado técnico, aprendi a aplicar de forma mais madura a arquitetura por features, a estruturar melhor a segurança com autenticação e a integrar back-end e front-end de forma mais consistente. Esses pontos consolidaram minha capacidade de adaptação e colaboração."
 ],
 
 hardSkillsDesenvolvidas: [
@@ -82,12 +82,11 @@ hardSkillsDesenvolvidas: [
 ],
 
 softSkillsDesenvolvidas: [
-  'Trabalho em equipe: colaborei ativamente e compartilhei meus conhecimentos.',
-'Adaptabilidade: entendi como cada integrante trabalha e ajustei minha forma de contribuir conforme o fluxo do time.',
-  'Comunicação: desenvolvi habilidades para dar sugestões, pedir opiniões e colaborar nas decisões do time.',
-  'Pensamento crítico: analisei erros no front-end para identificar causas e propor melhorias no sistema.',
-  'Aprendizagem contínua: adquiri rapidamente conhecimentos em Spring Boot e MongoDB para superar desafios técnicos.'
-]
+  'Resolução de problemas: Neste semestre, lidar com um front-end estruturado do zero e integrar com o back-end trouxe vários problemas práticos, principalmente envolvendo autenticação, controle de acesso e padronização do código. Resolver esses pontos e manter a aplicação funcionando conforme o esperado fortaleceu minha habilidade de enfrentar problemas técnicos de forma objetiva.',
+  'Proatividade: As dificuldades internas do time exigiram que eu tomasse iniciativa com mais frequência. Precisei buscar professores, tirar dúvidas por conta própria e correr atrás de soluções sem depender de outras pessoas, o que aumentou minha autonomia e meu ritmo de entrega.',
+  'Comunicação: Como fiquei responsável por grande parte da arquitetura do front-end, precisei orientar o time sobre como seguir o padrão definido. Expliquei as decisões, alinhei estrutura de pastas, componentes e convenções. A comunicação foi essencial para manter tudo consistente, especialmente em uma equipe que ainda estava se conhecendo.',
+],
+
       }
     ];
   
