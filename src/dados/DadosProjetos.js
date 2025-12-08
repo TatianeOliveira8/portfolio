@@ -82,8 +82,8 @@ hardSkillsDesenvolvidas: [
 ],
 
 softSkillsDesenvolvidas: [
-  'Durante o desenvolvimento do front-end, surgiram vários problemas práticos envolvendo autenticação, controle de acesso e padronização do código. Resolver esses pontos para manter o sistema funcionando de forma consistente fortaleceu minha capacidade de analisar e corrigir falhas de maneira objetiva.',
-  'A falta de alinhamento em algumas sprints exigiu que eu tomasse iniciativa com mais frequência para manter o projeto mais próximo do que era ideal para o produto. Tive que tirar dúvidas por conta própria e buscar soluções de forma independente, o que fortaleceu minha proatividade ao longo do semestre.',
+  'Solução de problemas: Durante o desenvolvimento do front-end, surgiram vários problemas práticos envolvendo autenticação, controle de acesso e padronização do código. Resolver esses pontos para manter o sistema funcionando de forma consistente fortaleceu minha capacidade de analisar e corrigir falhas de maneira objetiva.',
+  'Proatividade: A falta de alinhamento em algumas sprints exigiu que eu tomasse iniciativa com mais frequência para manter o projeto mais próximo do que era ideal para o produto. Tive que tirar dúvidas por conta própria e buscar soluções de forma independente, o que fortaleceu minha proatividade ao longo do semestre.',
   'Comunicação: Como fiquei responsável por grande parte da arquitetura do front-end, precisei orientar o time sobre como seguir o padrão definido. Expliquei as decisões, alinhei estrutura de pastas, componentes e convenções. A comunicação foi essencial para manter tudo consistente, especialmente em uma equipe que ainda estava se conhecendo.',
 ],
 
