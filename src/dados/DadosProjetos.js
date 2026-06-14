@@ -87,6 +87,27 @@ softSkillsDesenvolvidas: [
   'Comunicação: Como fiquei responsável por grande parte da arquitetura do front-end, precisei orientar o time sobre como seguir o padrão definido. Expliquei as decisões, alinhei estrutura de pastas, componentes e convenções. A comunicação foi essencial para manter tudo consistente, especialmente em uma equipe que ainda estava se conhecendo.',
 ],
 
+      },
+      {
+        imagem: `${process.env.PUBLIC_URL}/img/imagem api.png`,
+        titulo: 'Sistema de Coleta de Dados de Estações Meteorológicas',
+        descricao: 'Projeto desenvolvido para a Tecsus visando expandir suas soluções de IoT no monitoramento ambiental por meio de estações meteorológicas. O sistema coleta automatizadamente dados de sensores e os disponibiliza em um sistema web com dashboards e relatórios para órgãos públicos e Defesa Civil.',
+        cargo: 'Fullstack e DevOps',
+        tecnologias: ['React', 'TypeScript', 'Node.js', 'C', 'Python', 'Flask', 'PostgreSQL', 'MongoDB', 'ESP32', 'Git', 'Jira', 'Figma', 'Swagger', 'Red Hat'],
+        linkDiretorio: '',
+        contribuicoesPessoais: [
+          'Nas sprints 1 e 2, atuei no back-end desenvolvendo o simulador do receptor de dados do ESP32, garantindo o fluxo completo da simulação da captação até a persistência desses dados nos bancos de dados.',
+          'Ao assumir um novo time na terceira sprint, realizei a implementação de toda a responsividade da aplicação web (Front-end), garantindo a usabilidade em diferentes dispositivos e telas para os dashboards.',
+          'Em DevOps, configurei o monitoramento da aplicação em produção, observando o status de 5 VMs (Backend, Frontend, Receptor, PostgreSQL e MongoDB) para prevenir quedas de serviços e gerenciar problemas e conflitos pós-deploy.'
+        ],
+        hardSkillsDesenvolvidas: [
+          'Desenvolvimento de simuladores (ESP32) para IoT e manipulação de fluxos de dados no Back-end.',
+          'Design responsivo e usabilidade em front-end com React e TypeScript.',
+          'Monitoramento de infraestrutura e aplicações em produção (DevOps/VMs).'
+        ],
+        softSkillsDesenvolvidas: [
+          'Adaptabilidade: Transição suave entre times no meio do projeto, adequando-me rapidamente às demandas pendentes a partir da terceira sprint.',
+          'Responsabilidade: Fiquei responsável pela camada de produção e monitoramento, assegurando a estabilidade da aplicação após o deploy.'
+        ]
       }
     ];
-  
